@@ -33,7 +33,7 @@
         }
 </style>
 </head><body>
-<h1>Rekap Data Pelanggan</h1>
+<h1>Rekap Barang Keluar</h1>
 <hr>
 	<table id="laporan">
 		<tr>

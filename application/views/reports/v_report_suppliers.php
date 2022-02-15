@@ -33,24 +33,24 @@
 		}
 	</style>
 </head><body>
-	<h1>Rekap Data Supplier</h1>
+	<h1>Rekap Data Pemasok</h1>
 	<hr>
 	<table id="laporan">
 		<tr>
-			<th>Kode Supplier</th>
-			<th>Nama Supplier</th>
-			<th>Email Supplier</th>
-			<th>No HP Supplier</th>
-			<th>Alamat Supplier</th>
+			<th>Kode Pemasok</th>
+			<th>Nama Pemasok</th>
+			<th>Email Pemasok</th>
+			<th>No HP Pemasok</th>
+			<th>Alamat Pemasok</th>
 		</tr>
-		<?php foreach ($suppliers as $supplier) : ?>
+		<?php foreach ($suppliers as $Pemasok): ?>
 			<tr>
-				<td><?= $supplier["supplier_code"] ?></td>
-				<td><?= $supplier["supplier_name"] ?></td>
-				<td><?= $supplier["supplier_email"] ?></td>
-				<td><?= $supplier["supplier_phone"] ?></td>
-				<td><?= $supplier["supplier_address"] ?></td>
+				<td><?=$Pemasok["kode_pemasok"]?></td>
+				<td><?=$Pemasok["nama_pemasok"]?></td>
+				<td><?=$Pemasok["email_pemasok"]?></td>
+				<td><?=$Pemasok["no_pemasok"]?></td>
+				<td><?=$Pemasok["alamat_pemasok"]?></td>
 			</tr>
-		<?php endforeach; ?>
+		<?php endforeach;?>
 	</table>
 </body></html>
